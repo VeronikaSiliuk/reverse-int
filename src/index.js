@@ -1,5 +1,6 @@
 module.exports = function reverse (n) {
-        let a = n.toString().split('').reverse().join('')
-        return +a
+    let a = Math.abs(n);
+        let b= a.toString().split('').reverse().join('')
+        return +b
         };
 
